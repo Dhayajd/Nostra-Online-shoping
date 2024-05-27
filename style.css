@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    font-family: "poppins";
+}
+.popup{
+    background-color: #1D232C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    height:5vw ;     
+}
+.hide{
+    display: none;
+}
+
+.popup i{
+  cursor: pointer;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 3;
+}
+.menu{
+    display: flex;
+    gap: 20px;   
+}
+/*  */
+.imgsec {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+   min-width:100%;
+    
+}
+
+.slide img {
+    width: 100%;
+    
+}
+
+.slide_btn {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.slide_btn i {
+    cursor: pointer;
+    font-size: 5vw;
+}
+/*  */
+
+.logos{
+    display: flex;
+    justify-content:space-around ;
+}
+.blogo img{
+    width: 5vw;
+}
+.cus_exp_h{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    
+    
+}
+p,h4{
+    font-size: 1vw;
+}
+.service div{
+    background-color: #F2F4F7;
+    padding: 10px;
+    text-align: left; 
+}
+
+.new_dress{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+ img{
+    width:20vw;
+}
+.dress{
+    position: relative;
+    width: 100%;
+}
+.overlay{
+    width:20vw;
+    height: 20vw;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+}
+.dress img{
+    border-radius: 20px;
+}
+.sbtn{
+    background-color: white;
+    color: black;
+    border: white;
+    border-radius: 15px;
+    padding: 1vw;
+    position: absolute;
+    left:20%;
+    top: 40%;
+}
+.mdress{
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    scrollbar-width: none;
+    position: relative;
+}
+.Offer_section{
+    background-color:#1D232C;
+    /* height:220px; */
+     
+}
+.offer{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content:center;
+    width: 80%;
+    padding: 40px;
+}
+.offer_img img{
+    width:100%; 
+    padding:5%;
+    
+}
+.offer_details h1,h5{
+    color: white;
+    font-size: 2vw;
+    padding-left: 50px;
+}
+.offer_details{
+    width: 100%;
+    padding: 5%;
+}
+.offer_details button{
+    margin-left: 60px;
+    padding:1% 2%;
+
+}
+.joinus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.joinus p{
+    font-size: 2vw;
+}
+.joinus input{
+    width: 70%;
+    margin: 9px;
+    border: solid 3px black;
+    padding: 1%;
+}
+.sub{
+    color: white;
+    background-color: black;
+    padding:1% 2%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.foot{
+    padding: 20px;
+    background-color: #1D232C;
+    color: white;
+    margin: 0;
+    font-size: 2vw;
+}
+.foot p,h6{
+    margin-bottom: 20px;
+}
+.side{
+    margin: -6px;
+    padding: 0;
+    
+}
+.mid_of_page{
+    position: relative;
+    display: flex;
+    gap: 110px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-left: 3vw;
+    
+}
+.vertical-line{
+    border: none;
+    border-left: 3px solid #1D232C;
+    height: 100%;
+    margin: 0 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10vw;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vw 7vw;
+    background-color: #1D232C;
+    margin: 0 20vw;
+    color: white;
+    border-radius: 5px;
+}
+.form input{
+    border: 3px solid black;
+    height: 4vw;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form textarea{
+    height: 20vw;
+    border: solid;
+    border-radius: 5px;
+}
+.form button{
+    padding: 5px;
+    width: 12vw;
+    background-color: rgb(14, 134, 254);
+    color: white;
+    border-radius: 5px;
+    margin-top: 1vw;
+}
+
+
+

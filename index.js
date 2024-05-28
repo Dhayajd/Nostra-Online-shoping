@@ -38,3 +38,13 @@ nextButton.addEventListener('click', function() {
     
    
 });
+let white=document.querySelector(".white")
+
+white.addEventListener("click",function(){
+    if(white.style.color=="rgb(243, 239, 239)"){
+        white.style.color="red"
+    }
+    else{
+        white.style.color="rgb(243, 239, 239)"
+    }
+})
